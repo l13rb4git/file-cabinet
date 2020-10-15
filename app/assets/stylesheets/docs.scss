@@ -12,7 +12,7 @@
     text-align: center;
     .title {
         @include bold_font;
-        color: white;
+        color: black;
         margin: 0;
         left: 4.5%;
         font-size: 2.0em;
@@ -22,7 +22,7 @@
         position: absolute;
         bottom: .25rem;
         left: 5.5%;
-        color: white;
+        color: black;
         font-weight: lighter;
         font-size: .75rem;
         text-align: center;
@@ -31,7 +31,8 @@
         position: absolute;
         bottom: .25rem;
         left: 27.5%;
-        color: $light_gray;
+        //color: $light_gray;
+        color: black;
         font-weight: bold;
         font-size: .75rem;
         text-align: left;
